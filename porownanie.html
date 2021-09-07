@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8"/>
+        <script type="text/javascript"></script>
+
+        <!-- Importujemy plik css do html'a -->
+        <link rel="stylesheet" href="porownanie.css">
+
+        <!-- Zasysamy skrypt z pliku JavaScript--> 
+        <script src="porownanie.js"></script>
+
+    </head>
+
+    <body>
+    <div id ="pojemnik">
+        <!-- Tworzymy pole1 do wpisywania, pole2  do wpisywania oraz pole3 do potwierdzania i wyświetlenia --> 
+        <div id="pole1"><h2>Wpisz liczbe nr 1:</h2><input type="text" id="pole1"/> </div>
+        <div id="pole2"><h2>Wpisz liczbe nr 2:</h2><input type="text" id="pole2"/></div>
+        <div id="pole3"><input type="submit" value="Pokaż" onclick="wypisz()" id="pole3"/></div>
+            
+        <div id="wynik"></div>
+        
+    </div>
+    </body>
+</html>
